@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.landingPage {
+  background-color: pink;
+  height: 100vh;
+}
+
+.navbar {
+  color: white;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar img {
+  height: 23px;
+  width: auto;
+}
