@@ -48,7 +48,8 @@
 
 .pitch {
   background-color: rgb(17, 17, 17);
-  height: 100vh;
+  height: 50vh;
+  display: flex;
 }
 
 .pitchImage {
@@ -60,4 +61,8 @@
 
 .pitchVideo {
   width: 50%;
+}
+
+.pitchVideo video {
+  width: 100%;
 }
