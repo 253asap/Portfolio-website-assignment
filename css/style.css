@@ -47,22 +47,25 @@
 }
 
 .pitch {
-  background-color: rgb(17, 17, 17);
   height: 50vh;
   display: flex;
 }
 
 .pitchImage {
-  background-image: url(/assets/images/1.gif);
-  background-size: cover;
+  /* background-image: url(/assets/images/1.gif);
+  background-size: cover; */
   width: 50%;
   height: 100%;
+  background-color: rgb(17, 17, 17);
 }
 
 .pitchVideo {
+  height: 100%;
   width: 50%;
+  background-color: rgb(255, 0, 0);
 }
 
 .pitchVideo video {
+  height: 100%;
   width: 100%;
 }
