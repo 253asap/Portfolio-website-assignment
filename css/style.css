@@ -76,6 +76,7 @@ nav ul li {
   background-color: rgb(30, 30, 30);
   color: white;
   width: 100%;
+  text-align: center;
 }
 
 .about img {
@@ -86,6 +87,11 @@ nav ul li {
 .aboutPics {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.videoContainer {
+  max-width: 50%;
 }
 
 .videoContainer video {
