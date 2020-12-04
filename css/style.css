@@ -80,7 +80,10 @@ nav ul li {
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.about h1 {
+  margin: 20px auto;
 }
 
 .about img {
