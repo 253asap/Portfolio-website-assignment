@@ -1,2 +1,3 @@
 # Portfolio-website-assignment
-Personal website for Dan's class
+
+Personal website for Dan's class.
