@@ -122,8 +122,16 @@ nav ul li {
   color: black;
   font-size: 1.5rem;
   background-color: rgb(230, 230, 230);
-  height: 50vh;
+  height: 100vh;
   text-align: center;
+}
+
+.resume {
+  height: 100%;
+}
+
+.resume img {
+  height: 100%;
 }
 
 footer {
