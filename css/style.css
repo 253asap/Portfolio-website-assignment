@@ -71,6 +71,12 @@ nav ul li {
   border-radius: 5px;
 }
 
+.btn:hover {
+  background-color: transparent;
+  color: rgb(21, 160, 21);
+  border: 2px solid rgb(21, 160, 21);
+}
+
 .about {
   height: 100vh;
   background-color: rgb(30, 30, 30);
@@ -86,12 +92,15 @@ nav ul li {
 .about h1 {
   margin: 20px auto;
   margin-bottom: 100px;
+  padding-bottom: 5px;
+  border-bottom: solid white 4px;
 }
 
 .about img {
-  width: 550px;
+  width: 525px;
   height: auto;
   margin-right: 100px;
+  border-radius: 5px;
 }
 
 .aboutPics {
@@ -102,11 +111,13 @@ nav ul li {
 
 .videoContainer {
   width: 800px;
+  text-align: right;
 }
 
 .videoContainer video {
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
 }
 
 .skills {
