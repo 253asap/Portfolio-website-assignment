@@ -99,10 +99,6 @@ nav ul li {
   border: 2px solid rgb(21, 160, 21);
 }
 
-.hireBtn {
-  margin-top: 100px;
-}
-
 .about {
   height: 100vh;
   background-color: rgb(30, 30, 30);
@@ -228,4 +224,65 @@ footer {
   text-align: center;
   color: white;
   background-color: rgb(30, 30, 30);
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  .landingPage {
+    text-align: center;
+  }
+
+  .landingPage div {
+    margin: auto;
+  }
+
+  .about {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .about img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .btn {
+    padding: 0;
+  }
+
+  .aboutPics {
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+  }
+
+  .videoContainer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .videoContainer video {
+    width: 100%;
+    margin-bottom: 0;
+    height: auto;
+    margin: auto;
+  }
+
+  .skills {
+    height: 100%;
+    justify-content: center;
+  }
+  .skillsImgs img {
+    width: 100%;
+  }
+
+  .skillsImgs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }
