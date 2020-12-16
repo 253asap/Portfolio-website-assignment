@@ -80,15 +80,18 @@ nav ul li {
   font-size: 1.4rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .about h1 {
   margin: 20px auto;
+  margin-bottom: 100px;
 }
 
 .about img {
-  width: 500px;
+  width: 550px;
   height: auto;
+  margin-right: 100px;
 }
 
 .aboutPics {
@@ -98,7 +101,7 @@ nav ul li {
 }
 
 .videoContainer {
-  max-width: 50%;
+  width: 800px;
 }
 
 .videoContainer video {
