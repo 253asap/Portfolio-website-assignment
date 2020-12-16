@@ -5,6 +5,20 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(30, 30, 30);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(21, 160, 21);
+}
+
 a {
   text-decoration: none;
 }
@@ -22,12 +36,15 @@ nav {
   -webkit-box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.58);
   -moz-box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.58);
   box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.58);
+  z-index: 1000;
 }
 
 nav p {
+  margin-left: 20px;
   margin-right: auto;
   font-size: 2.5rem;
   font-weight: bold;
+  color: white;
 }
 
 nav ul {
@@ -39,10 +56,15 @@ nav ul li a {
   color: black;
 }
 
+nav ul li a:hover {
+  color: white;
+}
+
 nav ul li {
   font-size: 1.5rem;
   list-style: none;
   margin: 0 20px;
+  display: block;
 }
 
 .landingPage {
@@ -75,6 +97,10 @@ nav ul li {
   background-color: transparent;
   color: rgb(21, 160, 21);
   border: 2px solid rgb(21, 160, 21);
+}
+
+.hireBtn {
+  margin-top: 100px;
 }
 
 .about {
@@ -122,30 +148,80 @@ nav ul li {
 
 .skills {
   height: 100vh;
+  text-align: center;
   background-color: rgb(230, 230, 230);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.skills h1 {
+  margin-bottom: 25px;
+}
+
+.skillsImgs {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skillsImgs img {
+  width: 450px;
+  display: block;
+}
+
+.skills ul {
+  margin-top: 40px;
+}
+
+.skills ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.skills ul li img {
+  height: 50px;
+  margin: 5px 10px;
 }
 
 .about2 {
   color: white;
   text-align: center;
   background-color: rgb(30, 30, 30);
-  height: 100vh;
+  height: 100%;
+}
+
+.about2 div {
+  width: 100%;
+}
+
+.about2 div video {
+  width: 100%;
 }
 
 .contact {
   color: black;
   font-size: 1.5rem;
   background-color: rgb(230, 230, 230);
-  height: 100vh;
+  height: 100%;
   text-align: center;
 }
 
+.logo {
+  width: 50px;
+}
+
 .resume {
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .resume img {
-  height: 100%;
+  width: 100%;
+  max-width: 750px;
+  height: auto;
 }
 
 footer {
